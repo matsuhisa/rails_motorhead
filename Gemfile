@@ -10,8 +10,11 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'motorhead', require: ['motorhead', 'motorhead/road_crew']
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console'
   gem 'spring'
 end
+gem 'publisher', path: 'app/engines/publisher'

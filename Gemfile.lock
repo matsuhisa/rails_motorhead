@@ -1,3 +1,8 @@
+PATH
+  remote: app/engines/publisher
+  specs:
+    publisher (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -68,6 +73,7 @@ GEM
     mime-types (2.99)
     mini_portile2 (2.0.0)
     minitest (5.8.3)
+    motorhead (0.3.7)
     multi_json (1.11.2)
     nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
@@ -142,6 +148,8 @@ DEPENDENCIES
   coffee-rails
   jbuilder
   jquery-rails
+  motorhead
+  publisher!
   rails (= 4.2.5)
   sass-rails
   sdoc (~> 0.4.0)
