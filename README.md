@@ -1,6 +1,6 @@
 # Motorhead を試してみる
 
-## 導入 
+## 導入
 
 ```
 $ rails new motorhead
@@ -37,3 +37,5 @@ Running via Spring preloader in process 78099
         gsub  publisher.gemspec
       append
 ```
+
+## cookie でふり分ける
