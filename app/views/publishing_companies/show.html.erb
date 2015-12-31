@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @publishing_company.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @publishing_company.description %>
+</p>
+
+<p>
+  <strong>Prefecture:</strong>
+  <%= @publishing_company.prefecture_id %>
+</p>
+
+<%= link_to 'Edit', edit_publishing_company_path(@publishing_company) %> |
+<%= link_to 'Back', publishing_companies_path %>
