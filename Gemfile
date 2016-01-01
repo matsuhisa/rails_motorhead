@@ -19,3 +19,4 @@ group :development, :test do
   gem 'spring'
 end
 gem 'publisher', path: 'app/engines/publisher'
+gem 'new_feture_book', path: 'app/engines/new_feture_book'
