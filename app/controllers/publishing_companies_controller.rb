@@ -4,7 +4,7 @@ class PublishingCompaniesController < ApplicationController
   # GET /publishing_companies
   # GET /publishing_companies.json
   def index
-    @publishing_companies = PublishingCompany.all
+    @publishing_companies = PublishingCompany.joins(:prefecture).all
   end
 
   # GET /publishing_companies/1
