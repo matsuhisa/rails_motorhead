@@ -17,4 +17,12 @@
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Back', books_path %>
+
+
+<%= render engine: 'road_crew/button', locals: {label: '限定機能'} %>
 <%= render engine: 'publisher/show' %>
+<%= render engine: 'publisher/footer/show' %>
+
+<%= render engine: 'new_publisher/show' do %>
+あれこれ
+<% end %>

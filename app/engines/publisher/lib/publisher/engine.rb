@@ -8,6 +8,6 @@ module Publisher
     active_if { @publisher_active }
 
     # modelを利用した場合
-    #active_if { @book.price > 1000 }
+    # active_if { @book.price > 1000 }
   end
 end

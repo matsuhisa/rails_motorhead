@@ -7,6 +7,8 @@ class ApplicationController < ActionController::Base
     @publisher_active = false
     if cookies[:publisher]
       @publisher_active = true
+    else
+      cookies[:publisher] = true
     end
   end
 

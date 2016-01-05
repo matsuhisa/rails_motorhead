@@ -4,6 +4,11 @@ PATH
     new_feture_book (0.0.1)
 
 PATH
+  remote: app/engines/new_publisher
+  specs:
+    new_publisher (0.0.1)
+
+PATH
   remote: app/engines/publisher
   specs:
     publisher (0.0.1)
@@ -158,6 +163,7 @@ DEPENDENCIES
   motorhead
   mysql2
   new_feture_book!
+  new_publisher!
   publisher!
   rails (= 4.2.5)
   sass-rails
