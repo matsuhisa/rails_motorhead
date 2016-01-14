@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'faml'
 
 gem 'motorhead', require: ['motorhead', 'motorhead/road_crew']
 
@@ -18,6 +19,7 @@ group :development, :test do
   gem 'web-console'
   gem 'spring'
 end
+
 gem 'publisher', path: 'app/engines/publisher'
 gem 'new_feture_book', path: 'app/engines/new_feture_book'
 gem 'new_publisher', path: 'app/engines/new_publisher'
